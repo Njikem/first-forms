@@ -1,0 +1,421 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+
+
+
+/*Iphon*/
+
+
+@media (max-width:477px){
+
+   
+    
+    #first-form .login .logo h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    
+    .login h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    
+    #first-form .login .logo img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+     
+
+    }
+
+    #first-form .login input{
+        width: 100%;
+         padding-left: 60px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 10px;
+      
+    }
+
+    
+    .login input::placeholder{
+        margin-left: 40px;
+    }
+
+    .login {
+        position: relative;
+        margin-left: 20px;
+    }
+
+
+    .login .face  a img{
+       position: absolute;
+      left: 0;
+      margin-top: 25px;
+      margin-left: 30px;
+    
+
+}
+
+
+.login  a{
+    text-decoration: none;
+}
+
+
+.login .checkbox{
+    display: flex;
+   margin-right: 300px;
+   margin-top: 10px;
+   
+}
+ 
+
+.login .checkbox input{
+    width: 70px;
+  
+}
+
+
+
+.login .checkbox p{
+    margin-top: 10px;
+    font-size: x-small;
+    color: darkslategray;
+    width: 100%;
+}
+
+
+.login .log-in h2{
+    margin: 0 auto;
+    width: 300px;
+    color:#fff;
+    background-color: darkgreen;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-top: 10px;
+   
+   }
+   
+.login .signup{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login .signup u{
+    font-size: small;
+    color: black
+}
+
+
+.login .signup span{
+    margin-left: 5px;
+    color: darkgrey;
+    font-size: small;
+}
+
+
+.login .pass {
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
+
+
+.login .pass u{
+    color: black;
+    font-size: small;
+   
+}
+
+
+
+}
+/*End of Iphon*/
+
+
+
+
+
+
+/*Ipad mini*/
+
+@media (max-width:799px){
+
+    #first-form .login .logo h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    
+    .login h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    
+    #first-form .login .logo img{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+
+    }
+
+
+
+    #first-form .login input{
+        width: 70%;
+         padding-left: 60px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 10px;
+      
+    }
+
+    
+    .login input::placeholder{
+        margin-left: 40px;
+    }
+
+    .login {
+        position: relative;
+        margin-left: 20px;
+    }
+
+
+    .login .face  a img{
+       position: absolute;
+      left: 0;
+      margin-top: 25px;
+      margin-left: 30px;
+    
+
+}
+
+
+.login  a{
+    text-decoration: none;
+}
+
+
+.login .checkbox{
+    display: flex;
+   margin-right: 300px;
+   margin-top: 10px;
+   
+}
+ 
+
+.login .checkbox input{
+    width: 70px;
+ 
+  
+}
+
+
+
+.login .checkbox p{
+    margin-top: 10px;
+    font-size: x-small;
+    color: greenyellow;
+    width: 100%;
+    margin-right: 500px;
+}
+
+
+.login .log-in h2{
+    margin: 0 auto;
+    width: 300px;
+    color:#fff;
+    background-color: darkgreen;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-top: 10px;
+   
+   }
+   
+
+.login .signup{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login .signup u{
+    font-size: small;
+    color: white;
+    
+}
+
+
+.login .signup span{
+    margin-left: 5px;
+    color: darkgrey;
+    font-size: small;
+}
+
+
+.login .pass {
+    text-align: center;
+    margin-bottom: 2px;
+   
+}
+
+
+.login .pass u{
+   
+    font-size: small;
+   color:#fff;
+}
+   
+
+
+
+}
+
+/* End of Ipad mini*/
+
+
+
+
+
+
+
+/*Desktop*/
+
+
+#first-form{
+    background-image: url(/images/blue-backgram.jpg);
+    background-size: cover;
+    
+}
+
+
+ .login{
+    box-sizing: border-box;
+    position:relative; 
+}
+
+
+.login .logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+.login .logo h1{
+    text-align: center;
+    margin-top: 20px;
+} 
+
+
+.login h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.login input{
+    margin: 8px;
+    padding: 15px;
+    width: 20%;
+    padding-left: 50px;
+    margin-left: 620px;   
+    
+}
+
+
+
+.login .checkbox{
+ display: flex;
+ margin-top: 20px;
+}
+
+
+.login .checkbox p{
+    text-align: center;
+    margin-right: 790px;
+    margin-top: 10px;
+    font-size: small;
+    color: aquamarine;
+    width: 100%;
+}
+
+
+.login a{
+    text-decoration: none;
+}
+
+
+.login .log-in h2{
+ margin: 0 auto;
+ width: 100px;
+ color:#fff;
+ background-color: darkgreen;
+ padding-top: 12px;
+ padding-bottom: 12px;
+ padding-right: 100px;
+ padding-left: 100px;
+ margin-top: 10px;
+
+}
+
+
+
+
+.login  .signup{
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.login  .signup u{
+    color:#fff;
+}
+
+.login  .signup span{
+    color:  aquamarine;
+    margin-left: 6px;
+    font-weight: 400;
+}
+
+.login .pass{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+   
+}
+
+.login .pass u{
+    color:#fff;
+  
+}
+
+
+.login .face img{
+    position:absolute;
+    left: 0;
+    margin-left: 630px;
+    margin-top: 20px;
+
+}
+
+
+
+
+/*End of Desktop*/
